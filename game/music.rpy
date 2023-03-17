@@ -1,0 +1,1 @@
+define mainTheme = "audio/music/fairytale-main.mp3"
