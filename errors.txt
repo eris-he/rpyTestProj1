@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/music.rpy", line 1: expected statement.
-    def mainTheme = "audio/music/fairytale-main.mp3"
-                  ^
+File "game/scripts/prologue.rpy", line 21: invalid syntax
+    intimacyFlag++
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Mar 17 11:17:03 2023
+Tue Mar 21 09:15:34 2023
