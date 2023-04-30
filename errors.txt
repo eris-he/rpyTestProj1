@@ -2,9 +2,33 @@
 errors listed below, and try again.
 
 
-File "game/scripts/prologue.rpy", line 21: invalid syntax
-    intimacyFlag++
-    
+File "game/scripts/act3/goodEnding.rpy", line 24: expected statement.
+    choice1 = True
+            ^
+
+File "game/scripts/act3/goodEnding.rpy", line 25: expected statement.
+    choiceCounter += 1
+                  ^
+
+File "game/scripts/act3/goodEnding.rpy", line 30: expected statement.
+    choice2 = True
+            ^
+
+File "game/scripts/act3/goodEnding.rpy", line 31: expected statement.
+    choiceCounter += 1 
+                  ^
+
+File "game/scripts/act3/goodEnding.rpy", line 36: expected statement.
+    choice3 = True
+            ^
+
+File "game/scripts/act3/goodEnding.rpy", line 37: expected statement.
+    choiceCounter += 1
+                  ^
+
+File "game/scripts/act3/goodEnding.rpy", line 65: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    jump choiceJump
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Mar 21 09:15:34 2023
+Tue Mar 21 21:56:56 2023
