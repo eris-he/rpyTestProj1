@@ -1,39 +1,458 @@
-Tue Mar 21 21:59:46 2023
+Tue May  2 14:50:28 2023
 macOS-10.16-x86_64-i386-64bit
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.05s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.12s
+Loading error handling took 0.04s
+Loading script took 0.23s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
+Running init code took 0.05s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to '/Users/eris/Library/RenPy/backups/rpyTestProj1':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.01s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 415.45s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/prologue.rpy", line 26: expected statement.
+    ah_pleased 
+               ^
+DPI scale factor: 1.000000
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 424.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/eris/Library/RenPy/backups/rpyTestProj1':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.05s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 426.51s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 429.83s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 493.58s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/eris/Library/RenPy/backups/rpyTestProj1':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.30s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 495.41s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 497.24s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 533.95s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 600.50s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/eris/Library/RenPy/backups/rpyTestProj1':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1792, 1120)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon Pro 5500M OpenGL Engine'
+Version: b'2.1 ATI-4.9.51'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1690, 951) drawable=(3380, 1902)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 606.65s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1792, 1120)
